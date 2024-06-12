@@ -1,0 +1,12 @@
+1. Print the ASCII art logo
+2. Print the range to be given
+3. Take the input for difficulty : Easy or Difficult 
+	Easy -> Allocate 10 Chances
+	Difficult -> Allocate 5 Chances
+4. Generate a random number betweeen the range
+5. Take the user input for guessing the number
+6. Check if the answer matches the generated number
+	YES -> Winner
+	NO -> Deduct 1 chance from the total and ask input again 
+	 	If Chances_left == 0 -> End Game! 
+				Else -> Print the chances left ->  Step 5 
