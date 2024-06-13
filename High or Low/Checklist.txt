@@ -1,0 +1,13 @@
+1. Print the Ascii game art logo.
+ => Generate a random number for selecting the comparison A
+ => For Comparison B, make sure it is not the same as A
+
+2. Print Compare A: {name}, {description}, from {country}.
+3. Print VS ascii art
+4. Print Against B: UEFA Champions League, a Club football competition, from Europe.
+5. Ask input('Who has more followers? Type 'A' or 'B': ')
+6. Lives = 1 Chance
+7. Compare the followers of A and B -> save target answer
+8. Compare target answer with user input
+	Correct -> Add score +=1 
+	Incorrect -> End game = Clear console -> Print final score
